@@ -17,6 +17,10 @@
   Click on Install without restart
 # Generate password for root user
     passwd ec2-user
+    
+# Change ownership for opt directory, since we installed tomcat at /opt directory
+    chown -R ec2-user:ec2-user opt
+    
 # Configure Tomcat server with Jenkins
   Goto Manage Jenkins  -->  System
   
