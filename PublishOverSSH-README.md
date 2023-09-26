@@ -16,13 +16,12 @@
   
   Click on Install without restart
 # Generate password for root user
-    passwd root
-  ![image](https://user-images.githubusercontent.com/58024415/103478537-74607b00-4ded-11eb-9a4d-83ab82e3ed11.png)
+    passwd ec2-user
 # Configure Tomcat server with Jenkins
-  Goto Manage Jenkins  -->  Configure System
+  Goto Manage Jenkins  -->  System
   
-  ![image](https://user-images.githubusercontent.com/58024415/103478746-cfdf3880-4dee-11eb-8580-35a4c828d928.png)
-  
+  ![image](https://github.com/Naresh240/tomcat-deployment-withJenkinsCICD/assets/58024415/5daca716-cea9-4920-bcb7-90d2ccd0af04)
+
 # Create pipeline job to deploy web application into tomcat server
   Copy Jenkinsfile and copy to pipeline section
   
